@@ -1,0 +1,7 @@
+za/co/wethinkcode/model/Book.class
+za/co/wethinkcode/service/LibraryCatalog.class
+za/co/wethinkcode/model/Magazine.class
+za/co/wethinkcode/model/DigitalMedia.class
+za/co/wethinkcode/model/MediaItem.class
+za/co/wethinkcode/model/Audiobook.class
+za/co/wethinkcode/model/PrintMedia.class

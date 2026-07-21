@@ -17,7 +17,7 @@ public abstract class PrintMedia extends MediaItem{
     public boolean isBorrowable(){return isBorrowable;}
     public double getDailyLateFee(){return this.dailyLateFee;}
 
-    public void setBorrowable(boolean borrowable) {
+    public void setIsBorrowable(boolean borrowable) {
         isBorrowable = borrowable;
     }
 
