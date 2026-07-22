@@ -1,18 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: za.co.wethinkcode.LibraryCatalogTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec <<< FAILURE!
-za.co.wethinkcode.LibraryCatalogTest.testBookImplementation()  Time elapsed: 0.022 sec  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <Clean Code by Prentice Hall (2008)> but was: <Clean Codeby Prentice Hall(2008)>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
-	at za.co.wethinkcode.LibraryCatalogTest.testBookImplementation(LibraryCatalogTest.java:17)
-
-za.co.wethinkcode.LibraryCatalogTest.testCatalogServiceLogic()  Time elapsed: 0.001 sec  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because the return value of "za.co.wethinkcode.service.LibraryCatalog.getBorrowableItems()" is null
-	at za.co.wethinkcode.LibraryCatalogTest.testCatalogServiceLogic(LibraryCatalogTest.java:64)
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec

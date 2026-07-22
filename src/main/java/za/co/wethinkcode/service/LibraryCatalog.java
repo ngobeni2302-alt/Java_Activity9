@@ -55,11 +55,22 @@ public class LibraryCatalog {
 
     // TODO: Search for a PrintMedia item by title. Return null if not found.
     public PrintMedia findPrintMediaByTitle(String title) {
+        for (PrintMedia item : printMedia){
+            if (item.getTitle().equalsIgnoreCase(title)){
+                return item;
+            }
+        }
         return null;
     }
 
     // TODO: Return a list containing ONLY PrintMedia items that are currently borrowable (isBorrowable() == true)
     public List<PrintMedia> getBorrowableItems() {
-        return null;
+        List<PrintMedia> newList = new ArrayList<>();
+        for (PrintMedia item : printMedia){
+            if (item.isBorrowable()){
+                newList.add(item);
+            }
+        }
+        return newList;
     }
 }

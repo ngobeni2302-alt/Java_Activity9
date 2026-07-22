@@ -34,7 +34,7 @@ public abstract class MediaItem {
 
     public String getFormattedDetails() {
         // TODO: Return string format "title by publisher (publishYear)"
-        return this.title + "by "+ this.publisher + "(" + this.publishYear+")";
+        return this.title + " by "+ this.publisher + " (" + this.publishYear+")";
     }
 
     // TODO: Declare abstract method: String getItemType()

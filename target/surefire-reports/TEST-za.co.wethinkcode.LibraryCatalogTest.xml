@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="2" name="za.co.wethinkcode.LibraryCatalogTest" time="0.023" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="za.co.wethinkcode.LibraryCatalogTest" time="0.014" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.11+10-1-22.04.2-Ubuntu"/>
@@ -57,22 +57,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="za.co.wethinkcode.LibraryCatalogTest" name="za.co.wethinkcode.LibraryCatalogTest.testBookImplementation" time="0.022">
-    <failure message="expected: &lt;Clean Code by Prentice Hall (2008)&gt; but was: &lt;Clean Codeby Prentice Hall(2008)&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;Clean Code by Prentice Hall (2008)&gt; but was: &lt;Clean Codeby Prentice Hall(2008)&gt;
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
-	at za.co.wethinkcode.LibraryCatalogTest.testBookImplementation(LibraryCatalogTest.java:17)
-</failure>
-  </testcase>
+  <testcase classname="za.co.wethinkcode.LibraryCatalogTest" name="za.co.wethinkcode.LibraryCatalogTest.testBookImplementation" time="0.013"/>
   <testcase classname="za.co.wethinkcode.LibraryCatalogTest" name="za.co.wethinkcode.LibraryCatalogTest.testMagazineImplementation" time="0"/>
-  <testcase classname="za.co.wethinkcode.LibraryCatalogTest" name="za.co.wethinkcode.LibraryCatalogTest.testAudiobookCalculationAndValidation" time="0"/>
-  <testcase classname="za.co.wethinkcode.LibraryCatalogTest" name="za.co.wethinkcode.LibraryCatalogTest.testCatalogServiceLogic" time="0.001">
-    <failure message="Cannot invoke &quot;java.util.List.size()&quot; because the return value of &quot;za.co.wethinkcode.service.LibraryCatalog.getBorrowableItems()&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;java.util.List.size()&quot; because the return value of &quot;za.co.wethinkcode.service.LibraryCatalog.getBorrowableItems()&quot; is null
-	at za.co.wethinkcode.LibraryCatalogTest.testCatalogServiceLogic(LibraryCatalogTest.java:64)
-</failure>
-  </testcase>
+  <testcase classname="za.co.wethinkcode.LibraryCatalogTest" name="za.co.wethinkcode.LibraryCatalogTest.testAudiobookCalculationAndValidation" time="0.001"/>
+  <testcase classname="za.co.wethinkcode.LibraryCatalogTest" name="za.co.wethinkcode.LibraryCatalogTest.testCatalogServiceLogic" time="0"/>
 </testsuite>
