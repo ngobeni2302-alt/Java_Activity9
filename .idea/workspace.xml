@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ef71cfd0-144e-460e-9eed-dcb80e1b2021" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/wethinkcode/model/Audiobook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/wethinkcode/model/Audiobook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/wethinkcode/model/DigitalMedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/wethinkcode/model/DigitalMedia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/wethinkcode/service/LibraryCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/wethinkcode/service/LibraryCatalog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
